@@ -1,26 +1,70 @@
 .Sidebar{
-    height: 100vh;
+    height: calc(100vh - 3rem);
     display: flex;
     flex-direction: column;
     padding: 3rem;
-    h1{
-        font-size: 2rem;
-        font-weight: 700;
+    background-color:#F0F3F4;
+    border-radius: 2rem;
+    .sidebar-header{
+        display: flex;
+        flex-direction: row;
+        gap: 1.3rem;
+        align-items: center;
+        img{
+            width: 3rem;
+        }
+        h1{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        border-bottom: solid 0.1rem rgb(194, 193, 193);
+        padding-bottom: 2rem;
+    }
+    
+    ul{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; 
     }
     li{
-      list-style-type: none;  
-      padding: 1.5rem;
-      color: white;
-      background-color: black;
-      border-radius: 5rem;
+        list-style-type: none;  
+        padding: 1.5rem;
+
+        color: grey;
+        border-radius: 5rem;
+        transition:background-color 0.1s ease;
+        &:hover{
+            background-color: #091326;
+            color: white;
+        }
+
+        
     }
     .user{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+        
         div{
-            width: 4rem;
-            height: 4rem;
+            width: 5.5rem;
+            height: 5.5rem;
             img{
                 border-radius: 50%;
+                border: 0.25rem solid white;
+                
             }
+            margin-bottom: 1rem;
+            
+        }
+        .user-name{
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+            color: #091326;
+        }
+        .user-email{
+            color:grey
         }
     }
 }

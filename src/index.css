@@ -8,19 +8,23 @@ html{
   font-size: 62.5%;
 }
 body{
+  background-color: #B6C1C9;
   width: 100%;
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
+  padding: 1.5rem;
 }
 #root{
   display: grid;
   grid-template-columns: 2fr 8fr;
+  gap: 1.5rem;
 }
 img{
   max-width: 100%;
   display: block;
 }
 .prueba{
-  min-height: 100vh;
-  background-color: red;
+  min-height: calc(100vh - 3rem);
+  background-color: white;
+  border-radius: 2rem;
 }
