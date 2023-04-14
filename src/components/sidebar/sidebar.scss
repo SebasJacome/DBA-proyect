@@ -1,0 +1,28 @@
+.Sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    li{
+      list-style-type: none;  
+      padding: 1.5rem;
+      color: white;
+      background-color: black;
+      border-radius: 5rem;
+    }
+    .user{
+        div{
+            width: 4rem;
+            height: 4rem;
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+
