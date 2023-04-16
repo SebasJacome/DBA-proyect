@@ -12,7 +12,7 @@ const Sidebar = ({setTab}) =>{
         <div className="Sidebar">
             <div className="sidebar-header">
                 <img src={world_ico}/>
-                <h1>PUTO CHINO</h1>   
+                <h1>World</h1>   
             </div>
             <div>
                 <ul>
