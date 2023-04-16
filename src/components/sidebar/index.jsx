@@ -3,7 +3,11 @@ import './sidebar.scss'
 import josemi from '../../assets/josemi.jpeg'
 import world_ico from '../../assets/world-svgrepo-com.svg'
 
-const Sidebar = () =>{
+const Sidebar = ({setTab}) =>{
+    const handleClick = (event) =>{
+        const tabText = event.target.innerText
+        setTab(tabText.toLowerCase())
+    }
     return (
         <div className="Sidebar">
             <div className="sidebar-header">
@@ -12,27 +16,14 @@ const Sidebar = () =>{
             </div>
             <div>
                 <ul>
-                    <li className="sidebar-content-list">
+                    <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
                         Dashboard
                     </li>
-                    <li className="sidebar-content-list">
+                    <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
-                        Languages
+                        Prueba
                     </li>
-                    <li className="sidebar-content-list">
-                        <img src=""/>
-                        Population
-                    </li>
-                    <li className="sidebar-content-list">
-                        <img src=""/>
-                        Dashboard
-                    </li>
-                    <li className="sidebar-content-list">
-                        <img src=""/>
-                        Dashboard
-                    </li>
-                    
                 </ul>
             </div>
             <div className="user">

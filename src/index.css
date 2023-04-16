@@ -23,8 +23,10 @@ img{
   max-width: 100%;
   display: block;
 }
-.prueba{
+main{
   min-height: calc(100vh - 3rem);
-  background-color: white;
-  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
 }
+
