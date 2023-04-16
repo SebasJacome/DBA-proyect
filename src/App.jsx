@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Sidebar from './components/sidebar'
+import Sidebar from './components/Sidebar/Sidebar'
 
 import Dashboard from './layouts/Dashboard'
 import Prueba from './layouts/Prueba'
