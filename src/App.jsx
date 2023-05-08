@@ -2,9 +2,9 @@ import { useState } from 'react'
 import Sidebar from './components/Sidebar/Sidebar'
 
 import Dashboard from './layouts/Dashboard'
-import Prueba from './layouts/Prueba'
+import GDP from './layouts/GDP'
 
-const tabs ={"dashboard" : <Dashboard/>, "prueba" : <Prueba/>}
+const tabs ={"dashboard" : <Dashboard/>, "gdp" : <GDP/>}
 
 function App() {
   const [tab, setTab] = useState ("dashboard");

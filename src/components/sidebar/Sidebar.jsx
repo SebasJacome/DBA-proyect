@@ -22,7 +22,7 @@ const Sidebar = ({setTab}) =>{
                     </li>
                     <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
-                        Prueba
+                        GDP
                     </li>
                 </ul>
             </div>
