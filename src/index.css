@@ -16,7 +16,7 @@ body{
 }
 #root{
   display: grid;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: 1fr 9fr;
   gap: 1.5rem;
 }
 img{
