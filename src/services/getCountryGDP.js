@@ -1,8 +1,8 @@
 
-async function getGDP_PC() {
+async function getCountryGDP(countrycode) {
     try{
       const response = await fetch(
-          "https://dba-backend-production.up.railway.app/api/gdp_pc"
+          `https://dba-backend-production.up.railway.app/api/gdp_countries/${countrycode}`
         );
         const data = await response.json();
         return data;
@@ -12,4 +12,4 @@ async function getGDP_PC() {
     }
 }
 
-export { getGDP_PC }
+export { getCountryGDP }

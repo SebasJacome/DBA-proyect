@@ -5,6 +5,19 @@
     background-color: white;
     border-radius: 2rem;
     padding: 0.5rem 1rem;
+    &.contains-datalist{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        .datalist-container{
+            grid-column: 1/2;
+            height: 100%;
+        }
+        .graph-container{
+            grid-column: 2/7;
+            height: 100%;
+        }
+    }
     &:nth-child(1)
     {
         grid-column: 1/7;
@@ -16,4 +29,5 @@
         grid-column: 4/7;
     }
 }
+
 
