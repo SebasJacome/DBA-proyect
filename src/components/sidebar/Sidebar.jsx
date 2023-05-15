@@ -18,11 +18,23 @@ const Sidebar = ({setTab}) =>{
                 <ul>
                     <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
-                        DashboardSAD
+                        Dashboard
                     </li>
                     <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
                         GDP
+                    </li>
+                    <li className="sidebar-content-list" onClick={handleClick}>
+                        <img src=""/>
+                        Population
+                    </li>
+                    <li className="sidebar-content-list" onClick={handleClick}>
+                        <img src=""/>
+                        Geography
+                    </li>
+                    <li className="sidebar-content-list" onClick={handleClick}>
+                        <img src=""/>
+                        Employment
                     </li>
                 </ul>
             </div>
