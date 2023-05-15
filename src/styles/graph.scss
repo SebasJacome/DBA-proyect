@@ -5,28 +5,24 @@
     background-color: white;
     border-radius: 2rem;
     padding: 0.5rem 1rem;
-    &.contains-datalist{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 1fr;
-        .datalist-container{
-            grid-column: 1/2;
-            height: 100%;
+
+    .dropdown-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .tremor-Dropdown-root{
+            width: 60%;
         }
-        .graph-container{
-            grid-column: 2/7;
-            height: 100%;
+        .tremor-Dropdown-text{
+            font-size: 1.75rem;
+            font-weight: bold;
+            padding: 1.5rem;
         }
-    }
-    &:nth-child(1)
-    {
-        grid-column: 1/7;
-    }
-    &:nth-child(2){
-        grid-column: 1/4;
-    }
-    &:nth-child(3){
-        grid-column: 4/7;
+        .tremor-DropdownItem-text {
+            font-size: 1.5rem;
+            padding: 1.5rem;
+        }
     }
 }
 
