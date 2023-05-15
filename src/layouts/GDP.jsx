@@ -96,7 +96,7 @@ const GDP = () =>{
                     <div className='cards-container'>
                         {
                             Object.keys(data4).length != 4 ? 
-                            (<h3>Selecciona un país...</h3>):(
+                            (<h3 className='text-neutral-400'>Waiting for your selection...</h3>):(
                                 <>
                                     <Card className="max-w-sm" decoration="top" decorationColor="red">
                                         <Text className='text-slate-600 text-2xl'>GDP USD</Text>
