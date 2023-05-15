@@ -126,7 +126,7 @@ const Dashboard = () =>{
             <WorldMap
             color={mapInfo.color}
             valueSuffix={mapInfo.valueSuffix}
-            size="responsive"
+            size="xxl"
             data={mapInfo.data}
             />
 
