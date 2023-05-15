@@ -18,7 +18,7 @@ const Sidebar = ({setTab}) =>{
                 <ul>
                     <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
-                        Dashboard
+                        DashboardSAD
                     </li>
                     <li className="sidebar-content-list" onClick={handleClick}>
                         <img src=""/>
