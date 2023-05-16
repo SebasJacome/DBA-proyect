@@ -1,0 +1,41 @@
+.graph{
+    &.employment-graph{
+        grid-column: 1/7;
+    }
+
+    &.donutChart-container{
+        position: relative;
+        .dropdown-container{
+            position: absolute;
+            top: 40%;
+            left: 6rem;
+            justify-content: flex-start;
+            width: 35%;
+            z-index: 1;
+        }
+        .legend-container{
+            position: absolute;
+            top: calc(50% - 56px);
+            right: 9rem;
+            font-size: 5rem;
+            .tremor-Legend-root{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                
+                
+            }
+            .tremor-Legend-legendItem{
+                margin: 0;
+                
+            }
+            .termor-elem{
+                font-size: 2rem;
+                line-height: normal;
+                
+            }
+        }
+    }
+
+}
+

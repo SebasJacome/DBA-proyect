@@ -8,7 +8,7 @@ import { getCountryGDP } from '../services/getCountryGDP';
 
 
 
-import { Card, Title, BarChart, Subtitle, Metric, Text, Dropdown, DropdownItem  } from "@tremor/react";
+import { Card, BarChart, Metric, Text, Dropdown, DropdownItem  } from "@tremor/react";
 
 const dataFormatter_dollars = (number) => {
     return "$ " + Intl.NumberFormat("us").format(number).toString();
@@ -75,12 +75,6 @@ const GDP = () =>{
             <div className="graph contains-cards">
                 <div className='left-container'>
                     <div className='dropdown-container'>
-                        {/* <input type='text' list="gdp-countries-data" placeholder = "Select a country" onChange={handleSelect}/>
-                        <datalist id="gdp-countries-data">
-                            {data3.map((item, index) => {
-                                return <option key={index} value={item.name}/>
-                            })}
-                        </datalist>  */}
 
                         <Dropdown
                         onValueChange={(selectedCountry) => handleSelect(selectedCountry)}
