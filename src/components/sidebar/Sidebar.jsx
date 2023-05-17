@@ -1,5 +1,5 @@
 import React from "react"
-import './Sidebar.scss'
+import './sidebar.scss'
 import josemi from '../../assets/josemi.jpeg'
 import world_ico from '../../assets/world-svgrepo-com.svg'
 
