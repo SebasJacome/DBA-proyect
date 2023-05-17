@@ -6,6 +6,20 @@
     border-radius: 2rem;
     padding: 0.5rem 1rem;
 
+    .recharts-legend-wrapper{
+        .termor-elem{
+            font-size: 2.5rem;
+            font-weight: bold;
+            line-height: normal;
+            
+
+        }
+        div:first-of-type{
+            justify-content: center;
+        }
+    
+    }
+    
     .dropdown-container{
         width: 100%;
         display: flex;
