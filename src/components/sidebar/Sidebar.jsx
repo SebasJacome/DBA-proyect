@@ -43,7 +43,7 @@ const Sidebar = ({setTab}) =>{
                     <img src={josemi}/>
                 </div>
                 <p className="user-name">Jose Kuri</p>
-                <p className="user-email">pepekuri@gmail.com</p>
+                <p className="user-email">jose.kuri@gmail.com</p>
             </div>
         </div>
     )
