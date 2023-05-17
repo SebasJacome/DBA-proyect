@@ -124,10 +124,10 @@ const Dashboard = () =>{
 
         <div className='graph dashboard-container'>
             <WorldMap
-            color={mapInfo.color}
-            valueSuffix={mapInfo.valueSuffix}
-            size="xxl"
-            data={mapInfo.data}
+                color={mapInfo.color}
+                valueSuffix={mapInfo.valueSuffix}
+                size="xxl"
+                data={mapInfo.data}
             />
 
             <div className='dropdown-container'>
